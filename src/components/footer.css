@@ -1,0 +1,42 @@
+.footer {
+    background: linear-gradient(to right, #A800FF, #5766FF, #00D4FF);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 120px;
+}
+
+.footer-socials a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.footer-socials a:hover {
+    opacity: 0.7;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+.footer-bottom a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: opacity 0.3s;
+}
+
+.footer-bottom a:hover {
+    opacity: 0.7;
+}
